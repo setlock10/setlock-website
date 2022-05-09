@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <link rel="stylesheet" href="style.css" />
-      <title>My Personal Website</title>
+     <link id="pageStyle" rel="stylesheet" href="style.css" />
+     <title>My Personal Website</title>
+     
     </head>
   <body>
-      <h1>Sup!?</h1>
-      <script src="script.js"></script>
+    <div id="menuBar">
+      <div id="home">
+        <h1>Home</h1>
+      </div>
+      <div id="vibes">
+        <h1>Set Vibe</h1>
+        <div id="dropDown">
+          <div id="arctic">
+            <h1>Arctic</h1>
+          </div>
+          <div id="hungry">
+            <h1>Hungry</h1>
+          </div>
+          <div id="hot">
+            <h1>Mondrian</h1>
+          </div>
+        </div>
+
+      </div>
+      <div id="about">
+        <h1>About</h1>
+      </div>
+    </div>
+
+    <div id="jSetlock">
+      <h2>The Personal Website of</h2>
+      <h3>J Setlock</h3>
+    </div>
+ 
+    <section id="boxes">
+      <div id='box1'>
+       <h4> Interests</h4>
+       <p> - Golfing</p>
+       <p> - Mystery Novels</p>
+       <p> - The Buffalo Bills</p>
+      </div>
+     <div id='box2'>
+       <h4> Experience</h4>
+       <p> - 25 Years in Geophysics</p>
+      </div>
+     <div id='box3'>
+       <h4> Cats</h4>
+       <img id="catsPic" src="./Cats.png"/>
+     </div>
+   </section> 
+   
+   <nav id="aboutBox">
+     <p>The menu bar and the boxes are created in HTML and styled in CSS.
+
+      The hover events are handled in CSS.
+      
+      The click events that change the "vibe" are written in JavaScript.  
+      A modified CSS styleSheet is loaded for each "vibe"</p>
+   </nav>
+
+      
+
+   <script type="text/javascript" src="script.js"></script>
+ 
   </body>
 </html>

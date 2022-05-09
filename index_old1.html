@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <link id="pageStyle" rel="stylesheet" href="style.css" />
+      <title>My Personal Website</title>
+      <style>
+        .dropbtn {
+            background-color: #04AA6D;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropdown:hover .dropbtn {
+            background-color:#059862;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 100%;
+            overflow: auto;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .dropdown-content a:hover {background-color: #f1f1f1}
+        
+        .dropdown2:hover .dropdown-content {
+            display: block;
+        }
+
+        
+.right {
+right:0;
+}
+@media only screen and (max-width: 600px) {
+.dropdown {
+display:inline;
+}
+  .dropbtn {
+   width: 100%;
+   margin-top:55px;
+  }
+  .dropbtn2 {
+   margin-top:5px;
+  }
+    .dropspan {
+   width: 100%;
+   margin-top:5px;
+  }
+
+  .dropimg {
+   margin-top:55px;
+  }
+  .right {
+left:0;
+min-width:300px;
+}
+
+}
+
+@media only screen and (max-width: 346px) {
+.right {
+left:0;
+min-width:252px;
+}
+
+}
+.show {display:block;}
+
+.dropdownimg {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-contentimg {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdownimg:hover .dropdown-contentimg {
+    display: block;
+}
+
+.descimg {
+    padding: 15px;
+    text-align: center;
+}
+      </style> 
+    </head>
+  <body>
+ 
+    <div class="w3-row" style="margin-top:35px;margin-bottom:35px;">
+      <div class="w3-third">
+      <div class="dropdown dropdown2" style="position:relative;top:15px;">
+        <span class="dropspan">Dropdown Text</span>
+        <div class="dropdown-content w3-white" style="padding:8px 16px;min-width:150px;text-align:center">
+          <p>Hello World!</p>
+        </div>
+      </div>
+      </div> 
+    </div>
+    <div class="w3-third">
+      <div class="dropdown dropdown2">
+        <button class="dropbtn">Dropdown Menu</button>
+        <div class="dropdown-content">
+          <a href="javascript:void(0)">Link 1</a>
+          <a href="javascript:void(0)">Link 2</a>
+          <a href="javascript:void(0)">Link 3</a>
+        </div>
+      </div>
+      </div>
+
+      <div class="w3-third">
+        <div class="dropdown dropdown2">
+        <span style="position:relative;bottom:15px;">Other: </span><img class="dropimg" src="img_5terre.jpg" alt="Cinque Terre" width="100" height="50">
+          <div class="dropdown-content right">
+        <div class="img">
+        <img src="img_5terre.jpg" alt="Cinque Terre" width="300" height="200">
+        <div class="w3-white" style="padding:15px;text-align:center;">Beautiful Cinque Terre</div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+      
+
+   
+  </body>
+</html>
