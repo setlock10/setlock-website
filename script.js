@@ -22,7 +22,7 @@ function addingEventListener() {
       
     });
 
-    
+   document.querySelectorAll()
 
     
 

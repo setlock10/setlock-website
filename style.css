@@ -97,6 +97,11 @@ div {
     left:435px;
     box-shadow: 10px 10px 20px rgb(84, 84, 84);
   }
+
+  #box3:hover #catsPic{
+    width: 200px;
+  }
+
   
   h1 {
     font-size: 16px;
@@ -150,16 +155,18 @@ div {
   
   #vibes:hover #dropDown{
     display: block;
-   /* background-color: var(--hoverColor);*/
+   /* box-shadow: 10px 10px 20px rgb(84, 84, 84);*/
+    /* background-color: var(--hoverColor);*/
     z-index: 2;
   }
   
   #jSetlock{
     position: absolute;
     display: inline-block;
-    left:20px;
-    top: 150px;;
+    left:300px;
+    top: 80px;;
     font-family: 'Courier New', Courier, monospace;
+    z-index: 0;
  
   }
   
@@ -170,7 +177,7 @@ div {
   }  
 
   h3{
-    font-size: 28px;
+    font-size: 40px;
     text-align: left;
   }  
 
