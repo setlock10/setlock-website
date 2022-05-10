@@ -16,7 +16,6 @@
 
 
 
-
 #catsPic{
   width: 160px;
   
@@ -118,7 +117,7 @@ div {
   }
   #vibes{
     float:left;
-    width:15%;
+    width:10%;
     outline-width: 1px;
     outline-color:var(--boxOutline);
     outline-style:solid;
@@ -126,7 +125,7 @@ div {
    }
   #about{
     float:left;
-    width:15%;
+    width:10%;
     outline-width: 1px;
     outline-color:var(--boxOutline);
     outline-style:solid;
@@ -165,7 +164,7 @@ div {
   #jSetlock{
     position: absolute;
     display: inline-block;
-    left:300px;
+    left:250px;
     top: 80px;;
     font-family: 'Courier New', Courier, monospace;
     z-index: 0;
